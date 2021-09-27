@@ -1,0 +1,22 @@
+[2021-09-27 07:21:14,906] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-27 07:21:14,913] INFO [werkzeug._log:225]  * Running on http://172.18.0.24:8080/ (Press CTRL+C to quit)
+[2021-09-27 07:21:15,290] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 07:21:15] "GET / HTTP/1.1" 200 -
+[2021-09-27 07:21:15,485] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 07:21:15] "GET / HTTP/1.1" 200 -
+[2021-09-27 07:21:39,586] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-27 07:21:39,587] INFO [werkzeug._log:225]  * Running on http://172.18.0.24:8080/ (Press CTRL+C to quit)
+[2021-09-27 07:21:40,388] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 07:21:40] "GET / HTTP/1.1" 200 -
+[2021-09-27 07:24:04,490] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 07:24:04] "HEAD / HTTP/1.1" 200 -
+[2021-09-27 07:24:39,984] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-27 07:24:39,988] INFO [werkzeug._log:225]  * Running on http://172.18.0.24:8080/ (Press CTRL+C to quit)
+[2021-09-27 07:24:41,377] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 07:24:41] "GET / HTTP/1.1" 200 -
+[2021-09-27 07:25:51,817] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-27 07:25:51,818] INFO [werkzeug._log:225]  * Running on http://172.18.0.24:8080/ (Press CTRL+C to quit)
+[2021-09-27 07:25:51,870] INFO [discord.client.login:510] logging in using static token
+[2021-09-27 07:25:52,153] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-27 07:25:52,308] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 07:25:52] "GET / HTTP/1.1" 200 -
+[2021-09-27 07:25:52,418] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-jbps",{"micros":183507,"calls":["discord-sessions-green-prd-2-152",{"micros":182674,"calls":["start_session",{"micros":101676,"calls":["api-prd-main-nvks",{"micros":98111,"calls":["get_user",{"micros":4282},"add_authorized_ip",{"micros":9584},"get_guilds",{"micros":16356},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: f62725da43fd1972a645334fed98f805).
+[2021-09-27 07:25:54,505] INFO [root.on_ready:18] Logged in as Raiden Shogun
