@@ -1,0 +1,1201 @@
+[2021-09-15 04:20:18,012] INFO [discord.client.login:510] logging in using static token
+[2021-09-15 04:20:18,358] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-15 04:20:18,490] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-g2b5",{"micros":47150,"calls":["discord-sessions-blue-prd-2-21",{"micros":46121,"calls":["start_session",{"micros":36029,"calls":["api-prd-main-c9bt",{"micros":32584,"calls":["get_user",{"micros":2371},"add_authorized_ip",{"micros":5075},"get_guilds",{"micros":6933},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":20,"calls":[]},"presence_connect",{"micros":5805,"calls":[]}]}]}] (Session ID: beb377bc9e00f215c0df303a94e4850f).
+[2021-09-15 04:20:20,522] INFO [root.on_ready:16] Logged in as Raiden Shogun
+[2021-09-15 04:23:16,551] WARNING [root.on_command_error:31] Ignoring exception in command play:
+[2021-09-15 04:23:16,553] WARNING [root.on_command_error:32] 
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/Musicbot2/cogs/music.py", line 263, in play
+    client = await channel.connect()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/abc.py", line 1277, in connect
+    voice = cls(client, self)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 199, in __init__
+    raise RuntimeError("PyNaCl library needed in order to use voice")
+RuntimeError: PyNaCl library needed in order to use voice
+
+[2021-09-15 04:24:34,379] WARNING [root.on_command_error:31] Ignoring exception in command play:
+[2021-09-15 04:24:34,386] WARNING [root.on_command_error:32] 
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/Musicbot2/cogs/music.py", line 263, in play
+    client = await channel.connect()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/abc.py", line 1277, in connect
+    voice = cls(client, self)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 199, in __init__
+    raise RuntimeError("PyNaCl library needed in order to use voice")
+RuntimeError: PyNaCl library needed in order to use voice
+
+[2021-09-15 04:27:29,913] INFO [discord.client.login:510] logging in using static token
+[2021-09-15 04:27:30,221] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-15 04:27:30,371] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-xhvr",{"micros":69689,"calls":["discord-sessions-blue-prd-2-32",{"micros":68965,"calls":["start_session",{"micros":60709,"calls":["api-prd-main-jn1h",{"micros":53912,"calls":["get_user",{"micros":11106},"add_authorized_ip",{"micros":2970},"get_guilds",{"micros":4030},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":4060,"calls":[]}]}]}] (Session ID: ec7f284f568660937aefc6ffbea3cbd9).
+[2021-09-15 04:27:32,395] INFO [root.on_ready:16] Logged in as Raiden Shogun
+[2021-09-15 04:27:38,812] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-15 04:27:38,812] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-15 04:27:39,978] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore210.discord.media
+[2021-09-15 04:27:41,247] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-15 04:27:41,460] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-15 04:27:42,918] INFO [root.play:267] Now playing 'Rick Astley - Never Gonna Give You Up (Official Music Video)'
+[2021-09-15 04:28:00,622] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 826.
+[2021-09-15 04:28:00,623] INFO [discord.player.cleanup:166] ffmpeg process 826 has not terminated. Waiting to terminate...
+[2021-09-15 04:28:00,626] INFO [discord.player.cleanup:168] ffmpeg process 826 should have terminated with a return code of -9.
+[2021-09-15 04:28:24,343] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 667628322074787844 (Guild ID 667628322074787840)
+[2021-09-15 04:28:24,344] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-15 04:28:24,346] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 840.
+[2021-09-15 04:28:24,347] INFO [discord.player.cleanup:166] ffmpeg process 840 has not terminated. Waiting to terminate...
+[2021-09-15 04:28:24,354] INFO [discord.player.cleanup:168] ffmpeg process 840 should have terminated with a return code of -9.
+[2021-09-15 04:35:30,364] INFO [discord.client.login:510] logging in using static token
+[2021-09-15 04:35:30,367] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-15 04:35:30,371] INFO [werkzeug._log:225]  * Running on http://172.18.0.15:8080/ (Press CTRL+C to quit)
+[2021-09-15 04:35:30,649] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-15 04:35:30,841] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-s6fh",{"micros":106611,"calls":["discord-sessions-blue-prd-2-26",{"micros":105777,"calls":["start_session",{"micros":84731,"calls":["api-prd-main-mq80",{"micros":30491,"calls":["get_user",{"micros":2076},"add_authorized_ip",{"micros":2762},"get_guilds",{"micros":4398},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":0,"calls":[]}]}]}] (Session ID: a51faf4e0ce1c5a279fcf4dd25b7f3fd).
+[2021-09-15 04:35:32,877] INFO [root.on_ready:16] Logged in as Raiden Shogun
+[2021-09-15 04:35:34,220] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 04:35:34] "GET / HTTP/1.1" 200 -
+[2021-09-15 04:38:19,320] INFO [discord.client.login:510] logging in using static token
+[2021-09-15 04:38:19,323] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-15 04:38:19,324] INFO [werkzeug._log:225]  * Running on http://172.18.0.15:8080/ (Press CTRL+C to quit)
+[2021-09-15 04:38:19,660] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-15 04:38:19,868] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-tkgc",{"micros":121525,"calls":["discord-sessions-blue-prd-2-138",{"micros":111794,"calls":["start_session",{"micros":34751,"calls":["api-prd-main-1gl6",{"micros":31366,"calls":["get_user",{"micros":2052},"add_authorized_ip",{"micros":1875},"get_guilds",{"micros":5032},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":40272,"calls":[]}]}]}] (Session ID: 16cab22bb0df9e2fd9dc137f5acb7c31).
+[2021-09-15 04:38:21,734] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 04:38:21] "GET / HTTP/1.1" 200 -
+[2021-09-15 04:38:21,895] INFO [root.on_ready:17] Logged in as Raiden Shogun
+[2021-09-15 04:58:57,812] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-15 04:58:57,813] INFO [werkzeug._log:225]  * Running on http://172.18.0.15:8080/ (Press CTRL+C to quit)
+[2021-09-15 04:59:01,196] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 04:59:01] "GET / HTTP/1.1" 200 -
+[2021-09-15 04:59:34,340] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-15 04:59:34,341] INFO [werkzeug._log:225]  * Running on http://172.18.0.15:8080/ (Press CTRL+C to quit)
+[2021-09-15 04:59:37,964] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 04:59:37] "GET / HTTP/1.1" 200 -
+[2021-09-15 04:59:48,804] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-15 04:59:48,812] INFO [werkzeug._log:225]  * Running on http://172.18.0.15:8080/ (Press CTRL+C to quit)
+[2021-09-15 04:59:52,349] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 04:59:52] "GET / HTTP/1.1" 200 -
+[2021-09-15 05:03:09,117] INFO [discord.client.login:510] logging in using static token
+[2021-09-15 05:03:09,120] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-15 05:03:09,120] INFO [werkzeug._log:225]  * Running on http://172.18.0.15:8080/ (Press CTRL+C to quit)
+[2021-09-15 05:03:09,535] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-15 05:03:09,724] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-d90c",{"micros":99474,"calls":["discord-sessions-blue-prd-2-39",{"micros":98740,"calls":["start_session",{"micros":23348,"calls":["api-prd-main-c7xr",{"micros":20681,"calls":["get_user",{"micros":2425},"add_authorized_ip",{"micros":1249},"get_guilds",{"micros":2748},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":56920,"calls":[]}]}]}] (Session ID: f1f552027c23cfae7d513a4eddb274e7).
+[2021-09-15 05:03:11,755] INFO [root.on_ready:17] Logged in as Raiden Shogun
+[2021-09-15 05:03:12,082] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 05:03:12] "GET / HTTP/1.1" 200 -
+[2021-09-15 05:04:24,470] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 05:04:24] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 05:05:50,858] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 05:05:50] "GET / HTTP/1.1" 200 -
+[2021-09-15 05:09:24,273] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 05:09:24] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 05:13:23,384] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 05:13:23] "GET / HTTP/1.1" 200 -
+[2021-09-15 05:14:24,246] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 05:14:24] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 05:14:34,204] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-15 05:14:34,206] INFO [discord.client.login:510] logging in using static token
+[2021-09-15 05:14:34,207] INFO [werkzeug._log:225]  * Running on http://172.18.0.15:8080/ (Press CTRL+C to quit)
+[2021-09-15 05:14:34,517] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-15 05:14:34,657] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-tnpk",{"micros":59846,"calls":["discord-sessions-blue-prd-2-92",{"micros":46401,"calls":["start_session",{"micros":38025,"calls":["api-prd-main-f40v",{"micros":33288,"calls":["get_user",{"micros":2987},"add_authorized_ip",{"micros":1579},"get_guilds",{"micros":3515},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: d386cb6ba608d2300a2e44a7a2b74089).
+[2021-09-15 05:14:35,862] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 05:14:35] "GET / HTTP/1.1" 200 -
+[2021-09-15 05:14:36,683] INFO [root.on_ready:17] Logged in as Raiden Shogun
+[2021-09-15 05:19:24,595] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 05:19:24] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 05:24:24,298] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 05:24:24] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 05:29:24,254] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 05:29:24] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 05:34:24,247] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 05:34:24] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 05:39:24,305] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 05:39:24] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 05:39:29,235] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 05:39:29] "GET / HTTP/1.1" 200 -
+[2021-09-15 05:42:52,210] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 05:42:52] "GET / HTTP/1.1" 200 -
+[2021-09-15 05:44:24,196] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 05:44:24] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 05:45:31,445] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 05:45:31] "GET / HTTP/1.1" 200 -
+[2021-09-15 05:46:36,196] INFO [discord.client.login:510] logging in using static token
+[2021-09-15 05:46:36,203] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-15 05:46:36,203] INFO [werkzeug._log:225]  * Running on http://172.18.0.15:8080/ (Press CTRL+C to quit)
+[2021-09-15 05:46:36,483] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-15 05:46:36,678] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-zfxx",{"micros":111505,"calls":["discord-sessions-blue-prd-2-116",{"micros":110814,"calls":["start_session",{"micros":81896,"calls":["api-prd-main-9c0m",{"micros":73432,"calls":["get_user",{"micros":8849},"add_authorized_ip",{"micros":6109},"get_guilds",{"micros":14235},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":19706,"calls":[]}]}]}] (Session ID: 3b3a6c5cd564fc3a457c03d38864508e).
+[2021-09-15 05:46:38,711] INFO [root.on_ready:18] Logged in as Raiden Shogun
+[2021-09-15 05:46:39,234] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 05:46:39] "GET / HTTP/1.1" 200 -
+[2021-09-15 22:50:54,287] INFO [discord.client.login:510] logging in using static token
+[2021-09-15 22:50:54,289] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-15 22:50:54,306] INFO [werkzeug._log:225]  * Running on http://172.18.0.59:8080/ (Press CTRL+C to quit)
+[2021-09-15 22:50:54,595] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-15 22:50:54,710] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-l42h",{"micros":68399,"calls":["discord-sessions-blue-prd-2-6",{"micros":67586,"calls":["start_session",{"micros":46793,"calls":["api-prd-main-vvlf",{"micros":43745,"calls":["get_user",{"micros":2327},"add_authorized_ip",{"micros":1310},"get_guilds",{"micros":6634},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: d23ebafea4010459ff2499cec085d88b).
+[2021-09-15 22:50:56,890] INFO [root.on_ready:18] Logged in as Raiden Shogun
+[2021-09-15 22:54:48,739] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 22:54:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 22:59:48,309] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 22:59:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 23:04:48,282] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 23:04:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 23:09:48,299] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 23:09:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 23:14:48,215] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 23:14:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 23:19:48,275] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 23:19:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 23:24:48,346] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 23:24:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 23:29:48,236] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 23:29:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 23:34:48,586] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 23:34:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 23:39:48,384] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 23:39:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 23:44:48,563] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 23:44:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 23:49:48,143] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 23:49:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 23:54:48,407] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 23:54:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-15 23:59:48,282] INFO [werkzeug._log:225] 172.18.0.1 - - [15/Sep/2021 23:59:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 00:04:48,287] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 00:04:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 00:09:48,229] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 00:09:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 00:14:48,311] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 00:14:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 00:19:48,231] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 00:19:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 00:24:48,674] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 00:24:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 00:29:48,282] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 00:29:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 00:34:48,243] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 00:34:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 00:39:48,335] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 00:39:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 00:44:48,251] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 00:44:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 00:49:48,303] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 00:49:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 00:54:48,368] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 00:54:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 00:59:48,247] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 00:59:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 01:02:44,782] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 01:02:44] "GET / HTTP/1.1" 200 -
+[2021-09-16 01:03:11,968] INFO [discord.client.login:510] logging in using static token
+[2021-09-16 01:03:11,974] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-16 01:03:11,976] INFO [werkzeug._log:225]  * Running on http://172.18.0.59:8080/ (Press CTRL+C to quit)
+[2021-09-16 01:03:12,336] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-16 01:03:12,481] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-cnvm",{"micros":103403,"calls":["discord-sessions-blue-prd-2-67",{"micros":102414,"calls":["start_session",{"micros":58100,"calls":["api-prd-main-sk4q",{"micros":54874,"calls":["get_user",{"micros":2244},"add_authorized_ip",{"micros":1430},"get_guilds",{"micros":5275},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":10045,"calls":[]}]}]}] (Session ID: 9962842b623504dfa3bf5fdde20032b4).
+[2021-09-16 01:03:12,831] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 01:03:12] "GET / HTTP/1.1" 200 -
+[2021-09-16 01:03:14,825] INFO [root.on_ready:18] Logged in as Raiden Shogun
+[2021-09-16 01:04:48,219] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 01:04:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 01:09:48,270] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 01:09:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 01:14:48,320] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 01:14:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 01:19:48,323] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 01:19:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 01:21:33,518] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-16 01:21:33,519] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-16 01:21:33,802] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore8582.discord.media
+[2021-09-16 01:21:35,224] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-16 01:21:35,460] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-16 01:21:36,643] INFO [root.play:279] Now playing 'TREASURE - 미쳐가네(Going Crazy) PERFORMANCE FILM (4K)'
+[2021-09-16 01:24:48,529] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 01:24:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 01:25:26,365] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 218.
+[2021-09-16 01:25:26,365] INFO [discord.player.cleanup:170] ffmpeg process 218 successfully terminated with return code of 0.
+[2021-09-16 01:25:26,367] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 667628322074787844 (Guild ID 667628322074787840)
+[2021-09-16 01:25:26,368] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-16 01:26:31,337] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-16 01:26:31,337] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-16 01:26:31,643] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore8582.discord.media
+[2021-09-16 01:26:33,079] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-16 01:26:33,316] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-16 01:26:34,623] INFO [root.play:279] Now playing '[1 시간 / 1 HOUR LOOP] TREASURE - 미쳐가네 (Going Crazy)'
+[2021-09-16 01:29:48,304] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 01:29:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 01:34:48,185] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 01:34:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 01:38:25,579] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 235.
+[2021-09-16 01:38:25,579] INFO [discord.player.cleanup:166] ffmpeg process 235 has not terminated. Waiting to terminate...
+[2021-09-16 01:38:25,602] INFO [discord.player.cleanup:168] ffmpeg process 235 should have terminated with a return code of -9.
+[2021-09-16 01:39:48,356] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 01:39:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 01:40:02,565] INFO [discord.client.connect:568] Got a request to RESUME the websocket.
+[2021-09-16 01:40:02,898] INFO [discord.gateway.resume:417] Shard ID None has sent the RESUME payload.
+[2021-09-16 01:40:03,121] INFO [discord.gateway.received_message:501] Shard ID None has successfully RESUMED session 9962842b623504dfa3bf5fdde20032b4 under trace ["gateway-prd-main-zzkj",{"micros":2998,"calls":["discord-sessions-blue-prd-2-67",{"micros":23}]}].
+[2021-09-16 01:44:01,998] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 278.
+[2021-09-16 01:44:02,046] INFO [discord.player.cleanup:166] ffmpeg process 278 has not terminated. Waiting to terminate...
+[2021-09-16 01:44:02,155] INFO [discord.player.cleanup:168] ffmpeg process 278 should have terminated with a return code of -9.
+[2021-09-16 01:44:48,319] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 01:44:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 01:46:08,694] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 370.
+[2021-09-16 01:46:08,694] INFO [discord.player.cleanup:166] ffmpeg process 370 has not terminated. Waiting to terminate...
+[2021-09-16 01:46:08,709] INFO [discord.player.cleanup:168] ffmpeg process 370 should have terminated with a return code of -9.
+[2021-09-16 01:48:46,095] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 384.
+[2021-09-16 01:48:46,095] INFO [discord.player.cleanup:170] ffmpeg process 384 successfully terminated with return code of 0.
+[2021-09-16 01:49:48,257] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 01:49:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 01:54:48,366] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 01:54:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 01:59:48,272] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 01:59:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 02:02:28,077] INFO [discord.client.connect:568] Got a request to RESUME the websocket.
+[2021-09-16 02:02:28,367] INFO [discord.gateway.resume:417] Shard ID None has sent the RESUME payload.
+[2021-09-16 02:02:28,410] INFO [discord.gateway.received_message:501] Shard ID None has successfully RESUMED session 9962842b623504dfa3bf5fdde20032b4 under trace ["gateway-prd-main-1jq6",{"micros":730,"calls":["discord-sessions-blue-prd-2-67",{"micros":16}]}].
+[2021-09-16 02:02:44,402] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 02:02:44] "GET / HTTP/1.1" 200 -
+[2021-09-16 02:02:45,197] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 02:02:45] "GET / HTTP/1.1" 200 -
+[2021-09-16 02:04:48,272] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 02:04:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 02:09:48,284] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 02:09:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 02:14:48,196] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 02:14:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 02:19:48,290] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 02:19:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 02:24:48,365] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 02:24:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 02:29:48,221] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 02:29:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 02:31:02,292] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 667628322074787844 (Guild ID 667628322074787840)
+[2021-09-16 02:31:02,303] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-16 02:31:02,298] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 390.
+[2021-09-16 02:31:02,304] INFO [discord.player.cleanup:166] ffmpeg process 390 has not terminated. Waiting to terminate...
+[2021-09-16 02:31:02,339] INFO [discord.player.cleanup:168] ffmpeg process 390 should have terminated with a return code of -9.
+[2021-09-16 02:34:48,253] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 02:34:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 02:39:48,305] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 02:39:48] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 02:42:30,802] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 02:42:30] "GET / HTTP/1.1" 200 -
+[2021-09-16 02:42:50,686] INFO [discord.client.login:510] logging in using static token
+[2021-09-16 02:42:50,729] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-16 02:42:50,729] INFO [werkzeug._log:225]  * Running on http://172.18.0.59:8080/ (Press CTRL+C to quit)
+[2021-09-16 02:42:51,001] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-16 02:42:51,113] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-fwrc",{"micros":70042,"calls":["discord-sessions-blue-prd-2-173",{"micros":69145,"calls":["start_session",{"micros":32538,"calls":["api-prd-main-bxlm",{"micros":29242,"calls":["get_user",{"micros":2373},"add_authorized_ip",{"micros":1247},"get_guilds",{"micros":4640},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":17981,"calls":[]}]}]}] (Session ID: e98dc040af7fea0f841ac24be72c8f61).
+[2021-09-16 02:42:51,318] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 02:42:51] "GET / HTTP/1.1" 200 -
+[2021-09-16 02:42:53,314] INFO [root.on_ready:18] Logged in as Raiden Shogun
+[2021-09-16 02:43:38,504] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-16 02:43:38,505] INFO [werkzeug._log:225]  * Running on http://172.18.0.59:8080/ (Press CTRL+C to quit)
+[2021-09-16 02:43:38,512] INFO [discord.client.login:510] logging in using static token
+[2021-09-16 02:43:38,798] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-16 02:43:38,922] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-zfxx",{"micros":81171,"calls":["discord-sessions-blue-prd-2-32",{"micros":80287,"calls":["start_session",{"micros":42981,"calls":["api-prd-main-c45r",{"micros":39440,"calls":["get_user",{"micros":3962},"add_authorized_ip",{"micros":2102},"get_guilds",{"micros":11276},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: f6ad8f72813cccbc3eee26142c3eb173).
+[2021-09-16 02:43:39,015] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 02:43:39] "GET / HTTP/1.1" 200 -
+[2021-09-16 02:43:41,013] INFO [root.on_ready:18] Logged in as Raiden Shogun
+[2021-09-16 02:44:17,063] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-16 02:44:17,063] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-16 02:44:18,104] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore7513.discord.media
+[2021-09-16 02:44:19,546] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-16 02:44:19,784] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-16 02:44:19,918] WARNING [root.on_command_error:31] Ignoring exception in command play:
+[2021-09-16 02:44:19,919] WARNING [root.on_command_error:32] 
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/Musicbot2/cogs/music.py", line 286, in play
+    self._play_song(client, state, video, after=lambda e: repeat(client, state, video))
+TypeError: _play_song() got an unexpected keyword argument 'after'
+
+[2021-09-16 02:55:50,141] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-16 02:55:50,150] INFO [discord.client.login:510] logging in using static token
+[2021-09-16 02:55:50,155] INFO [werkzeug._log:225]  * Running on http://172.18.0.59:8080/ (Press CTRL+C to quit)
+[2021-09-16 02:55:50,414] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-16 02:55:50,570] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-8hsl",{"micros":118089,"calls":["discord-sessions-blue-prd-2-139",{"micros":116620,"calls":["start_session",{"micros":93999,"calls":["api-prd-main-vvgp",{"micros":88458,"calls":["get_user",{"micros":20332},"add_authorized_ip",{"micros":1603},"get_guilds",{"micros":7560},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: 31d4dd5b9aad622acead022ecde2f039).
+[2021-09-16 02:55:50,686] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 02:55:50] "GET / HTTP/1.1" 200 -
+[2021-09-16 06:03:09,993] INFO [discord.client.login:510] logging in using static token
+[2021-09-16 06:03:09,997] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-16 06:03:09,997] INFO [werkzeug._log:225]  * Running on http://172.18.0.30:8080/ (Press CTRL+C to quit)
+[2021-09-16 06:03:10,272] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-16 06:03:10,411] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-5s0b",{"micros":98524,"calls":["discord-sessions-blue-prd-2-30",{"micros":97561,"calls":["start_session",{"micros":73797,"calls":["api-prd-main-sj68",{"micros":70414,"calls":["get_user",{"micros":6651},"add_authorized_ip",{"micros":7762},"get_guilds",{"micros":18681},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 6d7416c9f34095629dcc60e7516693d0).
+[2021-09-16 06:03:12,449] INFO [root.on_ready:18] Logged in as Raiden Shogun
+[2021-09-16 06:07:42,096] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 06:07:42] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 06:12:42,336] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 06:12:42] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 06:17:42,342] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 06:17:42] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 06:22:42,263] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 06:22:42] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 06:25:27,577] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 06:25:27] "GET / HTTP/1.1" 200 -
+[2021-09-16 08:28:03,405] INFO [discord.client.login:510] logging in using static token
+[2021-09-16 08:28:03,409] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-16 08:28:03,409] INFO [werkzeug._log:225]  * Running on http://172.18.0.30:8080/ (Press CTRL+C to quit)
+[2021-09-16 08:28:03,650] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-16 08:28:03,777] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-jqb3",{"micros":88516,"calls":["discord-sessions-blue-prd-2-61",{"micros":87725,"calls":["start_session",{"micros":35747,"calls":["api-prd-main-8d88",{"micros":32012,"calls":["get_user",{"micros":4751},"add_authorized_ip",{"micros":2516},"get_guilds",{"micros":5788},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":28361,"calls":[]}]}]}] (Session ID: 111e729ece4a27042ec34eba0280e795).
+[2021-09-16 08:28:04,034] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 08:28:04] "GET / HTTP/1.1" 200 -
+[2021-09-16 08:28:05,897] INFO [root.on_ready:18] Logged in as Raiden Shogun
+[2021-09-16 08:32:51,397] INFO [discord.client.login:510] logging in using static token
+[2021-09-16 08:32:51,399] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-16 08:32:51,399] INFO [werkzeug._log:225]  * Running on http://172.18.0.30:8080/ (Press CTRL+C to quit)
+[2021-09-16 08:32:51,628] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-16 08:32:51,772] INFO [discord.gateway.poll_event:578] Websocket closed with 4000, attempting a reconnect.
+[2021-09-16 08:32:51,773] INFO [discord.client.connect:568] Got a request to RESUME the websocket.
+[2021-09-16 08:32:51,873] INFO [discord.gateway.resume:417] Shard ID None has sent the RESUME payload.
+[2021-09-16 08:32:51,909] INFO [discord.gateway.received_message:479] Shard ID None session has been invalidated.
+[2021-09-16 08:32:51,946] INFO [discord.client.connect:568] Got a request to IDENTIFY the websocket.
+[2021-09-16 08:32:52,182] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 08:32:52] "GET / HTTP/1.1" 200 -
+[2021-09-16 08:32:57,050] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-16 08:32:57,173] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-42dv",{"micros":84543,"calls":["discord-sessions-blue-prd-2-135",{"micros":83901,"calls":["start_session",{"micros":35633,"calls":["api-prd-main-36qc",{"micros":30888,"calls":["get_user",{"micros":7076},"add_authorized_ip",{"micros":1588},"get_guilds",{"micros":4742},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: a3407d6b807c2b6332b9ab3176186da9).
+[2021-09-16 08:32:59,226] INFO [root.on_ready:18] Logged in as Raiden Shogun
+[2021-09-16 08:33:02,202] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 08:33:02] "GET / HTTP/1.1" 200 -
+[2021-09-16 08:33:06,793] INFO [discord.client.login:510] logging in using static token
+[2021-09-16 08:33:06,795] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-16 08:33:06,795] INFO [werkzeug._log:225]  * Running on http://172.18.0.30:8080/ (Press CTRL+C to quit)
+[2021-09-16 08:33:06,995] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-16 08:33:07,204] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-k1hv",{"micros":172079,"calls":["discord-sessions-blue-prd-2-154",{"micros":170556,"calls":["start_session",{"micros":130098,"calls":["api-prd-main-c95m",{"micros":123344,"calls":["get_user",{"micros":14714},"add_authorized_ip",{"micros":10207},"get_guilds",{"micros":20769},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":11344,"calls":[]}]}]}] (Session ID: c8d142ffa7d4670949d98ef9a7f5216e).
+[2021-09-16 08:33:07,475] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 08:33:07] "GET / HTTP/1.1" 200 -
+[2021-09-16 08:33:09,260] INFO [root.on_ready:18] Logged in as Raiden Shogun
+[2021-09-16 20:39:56,306] INFO [discord.client.login:510] logging in using static token
+[2021-09-16 20:39:56,416] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-16 20:39:56,437] INFO [werkzeug._log:225]  * Running on http://172.18.0.20:8080/ (Press CTRL+C to quit)
+[2021-09-16 20:39:56,838] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-16 20:39:56,935] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-wjb4",{"micros":58143,"calls":["discord-sessions-blue-prd-2-66",{"micros":57326,"calls":["start_session",{"micros":34536,"calls":["api-prd-main-c7sc",{"micros":31417,"calls":["get_user",{"micros":4226},"add_authorized_ip",{"micros":2248},"get_guilds",{"micros":5517},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: f304126753000a5da277b9c9cbde0c39).
+[2021-09-16 20:39:59,740] INFO [root.on_ready:18] Logged in as Raiden Shogun
+[2021-09-16 20:43:02,198] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 20:43:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 20:48:02,267] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 20:48:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 20:53:02,243] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 20:53:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 20:58:02,248] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 20:58:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 21:03:03,255] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 21:03:03] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 21:08:02,291] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 21:08:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 21:13:02,218] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 21:13:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 21:18:02,190] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 21:18:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 21:23:02,470] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 21:23:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 21:28:02,345] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 21:28:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 21:33:02,565] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 21:33:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 21:38:02,205] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 21:38:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 21:43:02,200] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 21:43:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 21:48:02,171] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 21:48:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 21:53:02,307] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 21:53:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 21:58:02,122] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 21:58:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 22:03:02,465] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 22:03:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 22:08:02,149] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 22:08:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 22:13:02,296] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 22:13:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 22:18:02,163] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 22:18:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 22:23:02,243] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 22:23:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 22:28:02,208] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 22:28:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 22:33:02,165] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 22:33:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 22:38:02,198] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 22:38:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 22:43:02,245] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 22:43:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 22:48:02,260] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 22:48:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 22:53:02,202] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 22:53:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 22:58:02,231] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 22:58:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 23:03:02,168] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 23:03:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 23:08:02,237] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 23:08:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 23:13:02,191] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 23:13:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 23:18:02,183] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 23:18:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 23:23:02,257] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 23:23:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 23:28:02,214] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 23:28:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 23:33:02,193] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 23:33:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 23:38:02,188] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 23:38:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 23:43:02,103] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 23:43:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 23:48:02,250] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 23:48:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 23:53:02,190] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 23:53:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-16 23:58:02,240] INFO [werkzeug._log:225] 172.18.0.1 - - [16/Sep/2021 23:58:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 00:03:02,257] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 00:03:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 00:08:02,117] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 00:08:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 00:13:02,204] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 00:13:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 00:18:02,105] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 00:18:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 00:23:02,117] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 00:23:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 00:28:02,240] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 00:28:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 00:33:02,254] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 00:33:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 00:38:02,182] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 00:38:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 00:38:24,692] INFO [discord.client.connect:568] Got a request to RESUME the websocket.
+[2021-09-17 00:38:24,867] INFO [discord.gateway.resume:417] Shard ID None has sent the RESUME payload.
+[2021-09-17 00:38:24,917] INFO [discord.gateway.received_message:501] Shard ID None has successfully RESUMED session f304126753000a5da277b9c9cbde0c39 under trace ["gateway-prd-main-r8wr",{"micros":6145,"calls":["discord-sessions-blue-prd-2-66",{"micros":54}]}].
+[2021-09-17 00:43:02,236] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 00:43:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 00:48:02,266] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 00:48:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 01:24:55,363] WARNING [discord.gateway.run:167] Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    bot.run()
+  File "/home/runner/Musicbot2/bot.py", line 59, in run
+    bot.run(os.getenv('TOKEN'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 713, in run
+    loop.run_forever()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1859, in _run_once
+    handle._run()
+  File "/usr/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/ext/commands/bot.py", line 979, in on_message
+    await self.process_commands(message)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/ext/commands/bot.py", line 976, in process_commands
+    await self.invoke(ctx)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/Musicbot2/cogs/music.py", line 287, in play
+    video = Video(url, ctx.author)
+  File "/home/runner/Musicbot2/video.py", line 18, in __init__
+    video = self._get_info(url_or_search)
+  File "/home/runner/Musicbot2/video.py", line 33, in _get_info
+    return self._get_info(
+  File "/home/runner/Musicbot2/video.py", line 30, in _get_info
+    info = ydl.extract_info(video_url, download=False)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 808, in extract_info
+    return self.__extract_info(url, ie, download, extra_info, process)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 815, in wrapper
+    return func(self, *args, **kwargs)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 836, in __extract_info
+    ie_result = ie.extract(url)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/youtube_dl/extractor/common.py", line 534, in extract
+    ie_result = self._real_extract(url)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/youtube_dl/extractor/youtube.py", line 1623, in _real_extract
+    signature = self._decrypt_signature(sc['s'][0], video_id, player_url)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/youtube_dl/extractor/youtube.py", line 1348, in _decrypt_signature
+    func = self._extract_signature_function(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/youtube_dl/extractor/youtube.py", line 1262, in _extract_signature_function
+    res = self._parse_sig_js(code)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/youtube_dl/extractor/youtube.py", line 1311, in _parse_sig_js
+    funcname = self._search_regex(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/youtube_dl/extractor/common.py", line 994, in _search_regex
+    mobj = re.search(p, string, flags)
+  File "/usr/lib/python3.8/re.py", line 201, in search
+    return _compile(pattern, flags).search(string)
+
+[2021-09-17 01:24:58,353] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 01:24:58,355] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 01:24:58,369] INFO [discord.gateway.poll_event:581] Websocket closed with 1000, cannot reconnect.
+[2021-09-17 01:24:58,369] ERROR [discord.client.connect:607] Attempting a reconnect in 1.68s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 566, in connect
+    await self.ws.poll_event()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 582, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+[2021-09-17 01:25:00,408] INFO [discord.gateway.resume:417] Shard ID None has sent the RESUME payload.
+[2021-09-17 01:25:00,486] INFO [discord.gateway.received_message:501] Shard ID None has successfully RESUMED session f304126753000a5da277b9c9cbde0c39 under trace ["gateway-prd-main-fp1c",{"micros":4199,"calls":["discord-sessions-blue-prd-2-66",{"micros":78}]}].
+[2021-09-17 01:25:58,366] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 849119863092019244 (Guild ID 849119863092019240)
+[2021-09-17 01:25:58,366] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 849119863092019244 (Guild ID 849119863092019240)
+[2021-09-17 01:25:58,544] WARNING [root.on_command_error:31] Ignoring exception in command play:
+[2021-09-17 01:25:58,576] WARNING [root.on_command_error:32] 
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/Musicbot2/cogs/music.py", line 292, in play
+    client = await channel.connect()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/abc.py", line 1285, in connect
+    await voice.connect(timeout=timeout, reconnect=reconnect)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 345, in connect
+    await utils.sane_wait_for(futures, timeout=timeout)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/utils.py", line 362, in sane_wait_for
+    raise asyncio.TimeoutError()
+asyncio.exceptions.TimeoutError
+
+[2021-09-17 01:39:03,063] WARNING [root.on_command_error:31] Ignoring exception in command play:
+[2021-09-17 01:39:03,064] WARNING [root.on_command_error:32] 
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/Musicbot2/cogs/music.py", line 287, in play
+    video = Video(url, ctx.author)
+  File "/home/runner/Musicbot2/video.py", line 18, in __init__
+    video = self._get_info(url_or_search)
+  File "/home/runner/Musicbot2/video.py", line 34, in _get_info
+    info["entries"][0]["url"])  # get info for first video
+IndexError: list index out of range
+
+[2021-09-17 01:39:10,184] WARNING [root.on_command_error:31] Ignoring exception in command play:
+[2021-09-17 01:39:10,187] WARNING [root.on_command_error:32] 
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/Musicbot2/cogs/music.py", line 287, in play
+    video = Video(url, ctx.author)
+  File "/home/runner/Musicbot2/video.py", line 18, in __init__
+    video = self._get_info(url_or_search)
+  File "/home/runner/Musicbot2/video.py", line 34, in _get_info
+    info["entries"][0]["url"])  # get info for first video
+IndexError: list index out of range
+
+[2021-09-17 01:39:27,174] WARNING [root.on_command_error:31] Ignoring exception in command play:
+[2021-09-17 01:39:27,176] WARNING [root.on_command_error:32] 
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/Musicbot2/cogs/music.py", line 287, in play
+    video = Video(url, ctx.author)
+  File "/home/runner/Musicbot2/video.py", line 18, in __init__
+    video = self._get_info(url_or_search)
+  File "/home/runner/Musicbot2/video.py", line 34, in _get_info
+    info["entries"][0]["url"])  # get info for first video
+IndexError: list index out of range
+
+[2021-09-17 01:41:10,371] INFO [discord.client.login:510] logging in using static token
+[2021-09-17 01:41:10,386] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-17 01:41:10,387] INFO [werkzeug._log:225]  * Running on http://172.18.0.20:8080/ (Press CTRL+C to quit)
+[2021-09-17 01:41:10,861] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-17 01:41:10,976] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-w5jn",{"micros":75198,"calls":["discord-sessions-blue-prd-2-103",{"micros":74201,"calls":["start_session",{"micros":41079,"calls":["api-prd-main-26h4",{"micros":36386,"calls":["get_user",{"micros":3599},"add_authorized_ip",{"micros":2247},"get_guilds",{"micros":6659},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 164c40d4a5b1a725bc7c27cb8bbe7523).
+[2021-09-17 01:41:14,051] INFO [root.on_ready:18] Logged in as Raiden Shogun
+[2021-09-17 01:41:45,547] INFO [discord.client.login:510] logging in using static token
+[2021-09-17 01:41:45,602] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-17 01:41:45,641] INFO [werkzeug._log:225]  * Running on http://172.18.0.20:8080/ (Press CTRL+C to quit)
+[2021-09-17 01:41:46,214] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-17 01:41:46,379] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-pcmq",{"micros":111145,"calls":["discord-sessions-blue-prd-2-151",{"micros":109875,"calls":["start_session",{"micros":55355,"calls":["api-prd-main-kx4x",{"micros":49805,"calls":["get_user",{"micros":6769},"add_authorized_ip",{"micros":3253},"get_guilds",{"micros":3762},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: 4abdaca3a970af798b0a5d9a864b049c).
+[2021-09-17 01:41:49,543] INFO [root.on_ready:18] Logged in as Raiden Shogun
+[2021-09-17 01:43:59,528] INFO [discord.client.login:510] logging in using static token
+[2021-09-17 01:43:59,535] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-17 01:43:59,560] INFO [werkzeug._log:225]  * Running on http://172.18.0.20:8080/ (Press CTRL+C to quit)
+[2021-09-17 01:44:01,164] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-17 01:44:01,346] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-hw19",{"micros":80765,"calls":["discord-sessions-blue-prd-2-141",{"micros":79776,"calls":["start_session",{"micros":42634,"calls":["api-prd-main-9pn4",{"micros":38264,"calls":["get_user",{"micros":6196},"add_authorized_ip",{"micros":2309},"get_guilds",{"micros":6150},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: e98297526d0496fbbb8118f55a32a17b).
+[2021-09-17 01:44:06,395] INFO [root.on_ready:18] Logged in as Raiden Shogun
+[2021-09-17 01:48:42,901] INFO [discord.client.login:510] logging in using static token
+[2021-09-17 01:48:43,110] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-17 01:48:43,267] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-djzf",{"micros":120039,"calls":["discord-sessions-blue-prd-2-119",{"micros":119086,"calls":["start_session",{"micros":78890,"calls":["api-prd-main-9ts3",{"micros":28491,"calls":["get_user",{"micros":2993},"add_authorized_ip",{"micros":1623},"get_guilds",{"micros":4001},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: b3e5b0988803e9c922c6327d0031e31a).
+[2021-09-17 01:48:45,314] INFO [root.on_ready:18] Logged in as Raiden Shogun
+[2021-09-17 01:50:12,273] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 01:50:12,274] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 01:50:13,228] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore8019.discord.media
+[2021-09-17 01:50:14,649] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 01:50:14,889] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 01:50:16,507] INFO [root.play:296] Now playing 'DJ Khaled - WE GOING CRAZY (Official Music Video) ft. H.E.R., Migos'
+[2021-09-17 01:50:19,692] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 667628322074787844 (Guild ID 667628322074787840)
+[2021-09-17 01:50:19,694] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 01:50:19,697] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 155.
+[2021-09-17 01:50:19,697] INFO [discord.player.cleanup:166] ffmpeg process 155 has not terminated. Waiting to terminate...
+[2021-09-17 01:50:19,703] INFO [discord.player.cleanup:168] ffmpeg process 155 should have terminated with a return code of -9.
+[2021-09-17 01:50:27,256] WARNING [root.on_command_error:31] Ignoring exception in command play:
+[2021-09-17 01:50:27,257] WARNING [root.on_command_error:32] 
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/Musicbot2/cogs/music.py", line 287, in play
+    video = Video(url, ctx.author)
+  File "/home/runner/Musicbot2/video.py", line 18, in __init__
+    video = self._get_info(url_or_search)
+  File "/home/runner/Musicbot2/video.py", line 34, in _get_info
+    info["entries"][0]["url"])  # get info for first video
+IndexError: list index out of range
+
+[2021-09-17 01:50:45,538] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 01:50:45,543] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 01:50:45,811] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore8019.discord.media
+[2021-09-17 01:50:47,286] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 01:50:47,529] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 01:50:48,471] INFO [root.play:296] Now playing 'TREASURE - 미쳐가네(Going Crazy) PERFORMANCE FILM (4K)'
+[2021-09-17 01:50:51,153] WARNING [root.on_command_error:31] Ignoring exception in command loop:
+[2021-09-17 01:50:51,154] WARNING [root.on_command_error:32] 
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/Musicbot2/cogs/music.py", line 213, in loop
+    if self.is_looping is False:
+AttributeError: 'Music' object has no attribute 'is_looping'
+
+[2021-09-17 01:52:51,393] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 667628322074787844 (Guild ID 667628322074787840)
+[2021-09-17 01:52:51,397] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 163.
+[2021-09-17 01:52:51,408] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 01:52:51,411] INFO [discord.player.cleanup:166] ffmpeg process 163 has not terminated. Waiting to terminate...
+[2021-09-17 01:52:51,419] INFO [discord.player.cleanup:168] ffmpeg process 163 should have terminated with a return code of -9.
+[2021-09-17 01:54:53,221] INFO [discord.client.login:510] logging in using static token
+[2021-09-17 01:54:53,493] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-17 01:54:53,697] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-qkg1",{"micros":165023,"calls":["discord-sessions-blue-prd-2-78",{"micros":164200,"calls":["start_session",{"micros":90554,"calls":["api-prd-main-32nb",{"micros":84818,"calls":["get_user",{"micros":6144},"add_authorized_ip",{"micros":13021},"get_guilds",{"micros":14992},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":14,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: 3a5572582f6d65bf32c12ab58ca51a94).
+[2021-09-17 01:54:55,791] INFO [root.on_ready:18] Logged in as Raiden Shogun
+[2021-09-17 01:55:56,746] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-17 01:55:56,746] INFO [werkzeug._log:225]  * Running on http://172.18.0.9:8080/ (Press CTRL+C to quit)
+[2021-09-17 01:55:56,748] INFO [discord.client.login:510] logging in using static token
+[2021-09-17 01:55:57,012] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-17 01:55:57,139] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-ppht",{"micros":84939,"calls":["discord-sessions-blue-prd-2-12",{"micros":84269,"calls":["start_session",{"micros":58350,"calls":["api-prd-main-fk52",{"micros":51659,"calls":["get_user",{"micros":5158},"add_authorized_ip",{"micros":4547},"get_guilds",{"micros":6799},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: 96108fee6fb3a415c2b4bb209e5af7b4).
+[2021-09-17 02:28:31,423] INFO [discord.client.login:510] logging in using static token
+[2021-09-17 02:28:31,424] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-17 02:28:31,425] INFO [werkzeug._log:225]  * Running on http://172.18.0.124:8080/ (Press CTRL+C to quit)
+[2021-09-17 02:28:31,665] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-17 02:28:31,831] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-ds4t",{"micros":125388,"calls":["discord-sessions-blue-prd-2-168",{"micros":124560,"calls":["start_session",{"micros":65146,"calls":["api-prd-main-6dd7",{"micros":58537,"calls":["get_user",{"micros":4031},"add_authorized_ip",{"micros":1343},"get_guilds",{"micros":7993},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 3674dfdce2e15723d034a4186abccd9c).
+[2021-09-17 02:28:33,893] INFO [root.on_ready:18] Logged in as Raiden Shogun
+[2021-09-17 02:33:02,217] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 02:33:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 02:33:58,694] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 02:33:58,695] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 02:33:58,987] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore1085.discord.media
+[2021-09-17 02:34:00,426] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 02:34:00,674] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 02:34:01,715] INFO [root.play:297] Now playing '[1 시간 / 1 HOUR LOOP] TREASURE - 미쳐가네 (Going Crazy)'
+[2021-09-17 02:38:02,174] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 02:38:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 02:41:26,620] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 97.
+[2021-09-17 02:41:26,624] INFO [discord.player.cleanup:166] ffmpeg process 97 has not terminated. Waiting to terminate...
+[2021-09-17 02:41:26,630] INFO [discord.player.cleanup:168] ffmpeg process 97 should have terminated with a return code of -9.
+[2021-09-17 02:43:02,320] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 02:43:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 02:46:02,540] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 105.
+[2021-09-17 02:46:02,545] INFO [discord.player.cleanup:166] ffmpeg process 105 has not terminated. Waiting to terminate...
+[2021-09-17 02:46:02,566] INFO [discord.player.cleanup:168] ffmpeg process 105 should have terminated with a return code of -9.
+[2021-09-17 02:46:54,096] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 02:46:54,100] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 02:46:54,338] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found hongkong1377.discord.media
+[2021-09-17 02:46:55,639] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 02:46:55,858] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 02:46:56,811] INFO [root.play:297] Now playing 'Diskoria, Laleilmanino, Eva Celia - C.H.R.I.S.Y.E. (Official Music Video)'
+[2021-09-17 02:48:02,340] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 02:48:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 02:49:23,880] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 112.
+[2021-09-17 02:49:23,880] INFO [discord.player.cleanup:170] ffmpeg process 112 successfully terminated with return code of 0.
+[2021-09-17 02:52:31,353] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 869786731610796042 (Guild ID 850251897990021130)
+[2021-09-17 02:52:31,354] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 02:52:31,368] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 126.
+[2021-09-17 02:52:31,369] INFO [discord.player.cleanup:166] ffmpeg process 126 has not terminated. Waiting to terminate...
+[2021-09-17 02:52:31,374] INFO [discord.player.cleanup:168] ffmpeg process 126 should have terminated with a return code of -9.
+[2021-09-17 02:52:31,382] ERROR [discord.player._call_after:618] Calling the after function failed.
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/player.py", line 616, in _call_after
+    self.after(error)
+  File "/home/runner/Musicbot2/cogs/music.py", line 188, in after_playing
+    self._play_song(client, state, next_song)
+  File "/home/runner/Musicbot2/cogs/music.py", line 197, in _play_song
+    client.play(source, after=after_playing)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 555, in play
+    raise ClientException('Not connected to voice.')
+discord.errors.ClientException: Not connected to voice.
+[2021-09-17 02:52:31,383] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 132.
+[2021-09-17 02:52:31,384] INFO [discord.player.cleanup:166] ffmpeg process 132 has not terminated. Waiting to terminate...
+[2021-09-17 02:52:31,385] INFO [discord.player.cleanup:168] ffmpeg process 132 should have terminated with a return code of -9.
+[2021-09-17 02:53:02,350] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 02:53:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 02:53:27,211] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 119.
+[2021-09-17 02:53:27,212] INFO [discord.player.cleanup:170] ffmpeg process 119 successfully terminated with return code of 0.
+[2021-09-17 02:53:27,214] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 883917861884657674 (Guild ID 877936283538825226)
+[2021-09-17 02:53:27,215] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 02:53:33,092] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 02:53:33,093] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 02:53:33,366] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore1085.discord.media
+[2021-09-17 02:53:34,792] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 02:53:35,030] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 02:53:36,042] INFO [root.play:297] Now playing 'Diamond no Jundo - Oregairu. Kan ED Full Lyrics'
+[2021-09-17 02:53:56,838] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 02:53:56] "GET / HTTP/1.1" 200 -
+[2021-09-17 02:54:50,038] INFO [discord.voice_client.poll_voice_ws:426] Disconnected from voice by force... potentially reconnecting.
+[2021-09-17 02:54:50,039] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 2)
+[2021-09-17 02:54:50,063] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore841.discord.media
+[2021-09-17 02:54:51,566] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 02:54:51,821] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 02:54:53,488] INFO [discord.voice_client.poll_voice_ws:426] Disconnected from voice by force... potentially reconnecting.
+[2021-09-17 02:54:53,489] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 3)
+[2021-09-17 02:54:53,497] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore1085.discord.media
+[2021-09-17 02:54:54,957] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 02:54:55,203] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 02:55:52,426] WARNING [discord.gateway.run:135] Shard ID None has stopped responding to the gateway. Closing and restarting.
+[2021-09-17 02:55:54,428] WARNING [discord.gateway.run:135] Shard ID None has stopped responding to the gateway. Closing and restarting.
+[2021-09-17 02:56:59,864] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 135.
+[2021-09-17 02:56:59,865] INFO [discord.player.cleanup:170] ffmpeg process 135 successfully terminated with return code of 0.
+[2021-09-17 02:58:02,210] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 02:58:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 03:00:18,812] WARNING [root.on_command_error:31] Ignoring exception in command play:
+[2021-09-17 03:00:18,814] WARNING [root.on_command_error:32] 
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/Musicbot2/cogs/music.py", line 274, in play
+    video = Video(url, ctx.author)
+  File "/home/runner/Musicbot2/video.py", line 18, in __init__
+    video = self._get_info(url_or_search)
+  File "/home/runner/Musicbot2/video.py", line 34, in _get_info
+    info["entries"][0]["url"])  # get info for first video
+IndexError: list index out of range
+
+[2021-09-17 03:01:29,639] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 183.
+[2021-09-17 03:01:29,644] INFO [discord.player.cleanup:166] ffmpeg process 183 has not terminated. Waiting to terminate...
+[2021-09-17 03:01:29,658] INFO [discord.player.cleanup:168] ffmpeg process 183 should have terminated with a return code of -9.
+[2021-09-17 03:02:57,796] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 198.
+[2021-09-17 03:02:57,797] INFO [discord.player.cleanup:166] ffmpeg process 198 has not terminated. Waiting to terminate...
+[2021-09-17 03:02:57,806] INFO [discord.player.cleanup:168] ffmpeg process 198 should have terminated with a return code of -9.
+[2021-09-17 03:03:01,200] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 204.
+[2021-09-17 03:03:01,201] INFO [discord.player.cleanup:166] ffmpeg process 204 has not terminated. Waiting to terminate...
+[2021-09-17 03:03:01,211] INFO [discord.player.cleanup:168] ffmpeg process 204 should have terminated with a return code of -9.
+[2021-09-17 03:03:02,335] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 03:03:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 03:03:14,542] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 210.
+[2021-09-17 03:03:14,544] INFO [discord.player.cleanup:170] ffmpeg process 210 successfully terminated with return code of 0.
+[2021-09-17 03:03:14,546] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 869786731610796042 (Guild ID 850251897990021130)
+[2021-09-17 03:03:14,546] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 03:04:02,504] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 03:04:02,505] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 03:04:02,785] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore841.discord.media
+[2021-09-17 03:04:04,222] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 03:04:04,464] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 03:04:05,577] INFO [root.play:297] Now playing 'Most Old Beautiful Love Songs Of 70s 80s 90s - Best Romantic Love Songs 💖💖💖'
+[2021-09-17 03:04:38,820] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 852033104683204648 (Guild ID 850251897990021130)
+[2021-09-17 03:04:38,821] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 03:04:38,834] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 218.
+[2021-09-17 03:04:38,855] INFO [discord.player.cleanup:166] ffmpeg process 218 has not terminated. Waiting to terminate...
+[2021-09-17 03:04:38,862] INFO [discord.player.cleanup:168] ffmpeg process 218 should have terminated with a return code of -9.
+[2021-09-17 03:04:57,694] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 03:04:57,694] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 03:04:57,965] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore4118.discord.media
+[2021-09-17 03:04:59,442] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 03:04:59,691] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 03:05:00,769] INFO [root.play:297] Now playing 'Rick Roll EARRAPE'
+[2021-09-17 03:05:26,519] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 667628322074787844 (Guild ID 667628322074787840)
+[2021-09-17 03:05:26,520] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 03:05:26,526] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 225.
+[2021-09-17 03:05:26,527] INFO [discord.player.cleanup:166] ffmpeg process 225 has not terminated. Waiting to terminate...
+[2021-09-17 03:05:26,535] INFO [discord.player.cleanup:168] ffmpeg process 225 should have terminated with a return code of -9.
+[2021-09-17 03:07:00,381] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 03:07:00,381] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 03:07:00,662] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore4118.discord.media
+[2021-09-17 03:07:02,082] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 03:07:02,332] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 03:07:03,300] INFO [root.play:297] Now playing 'Hunter Hayes Wanted Lyrics'
+[2021-09-17 03:07:05,960] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 667628322074787844 (Guild ID 667628322074787840)
+[2021-09-17 03:07:05,963] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 03:07:05,965] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 250.
+[2021-09-17 03:07:05,982] INFO [discord.player.cleanup:166] ffmpeg process 250 has not terminated. Waiting to terminate...
+[2021-09-17 03:07:05,987] INFO [discord.player.cleanup:168] ffmpeg process 250 should have terminated with a return code of -9.
+[2021-09-17 03:07:20,324] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 03:07:20,324] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 03:07:20,597] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore4118.discord.media
+[2021-09-17 03:07:22,008] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 03:07:22,249] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 03:07:23,190] INFO [root.play:297] Now playing 'MONSTA X 「WANTED」 Music Video'
+[2021-09-17 03:08:02,204] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 03:08:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 03:10:55,213] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 257.
+[2021-09-17 03:10:55,217] INFO [discord.player.cleanup:170] ffmpeg process 257 successfully terminated with return code of 0.
+[2021-09-17 03:10:55,219] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 667628322074787844 (Guild ID 667628322074787840)
+[2021-09-17 03:10:55,221] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 03:11:34,523] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 03:11:34,523] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 03:11:34,817] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore841.discord.media
+[2021-09-17 03:11:36,263] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 03:11:36,505] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 03:11:37,573] INFO [root.play:297] Now playing 'Don Moen - Mi Corazon | Live Worship Sessions'
+[2021-09-17 03:13:02,215] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 03:13:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 03:17:03,291] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 265.
+[2021-09-17 03:17:03,293] INFO [discord.player.cleanup:170] ffmpeg process 265 successfully terminated with return code of 0.
+[2021-09-17 03:18:02,222] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 03:18:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 03:20:26,061] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 852033104683204648 (Guild ID 850251897990021130)
+[2021-09-17 03:20:26,062] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 03:20:26,075] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 321.
+[2021-09-17 03:20:26,075] INFO [discord.player.cleanup:166] ffmpeg process 321 has not terminated. Waiting to terminate...
+[2021-09-17 03:20:26,083] INFO [discord.player.cleanup:168] ffmpeg process 321 should have terminated with a return code of -9.
+[2021-09-17 03:20:26,096] ERROR [discord.player._call_after:618] Calling the after function failed.
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/player.py", line 616, in _call_after
+    self.after(error)
+  File "/home/runner/Musicbot2/cogs/music.py", line 188, in after_playing
+    self._play_song(client, state, next_song)
+  File "/home/runner/Musicbot2/cogs/music.py", line 197, in _play_song
+    client.play(source, after=after_playing)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 555, in play
+    raise ClientException('Not connected to voice.')
+discord.errors.ClientException: Not connected to voice.
+[2021-09-17 03:20:26,103] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 331.
+[2021-09-17 03:20:26,103] INFO [discord.player.cleanup:166] ffmpeg process 331 has not terminated. Waiting to terminate...
+[2021-09-17 03:20:26,106] INFO [discord.player.cleanup:168] ffmpeg process 331 should have terminated with a return code of -9.
+[2021-09-17 03:21:11,240] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 03:21:11,241] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 03:21:11,512] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore841.discord.media
+[2021-09-17 03:21:12,914] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 03:21:13,148] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 03:21:15,795] INFO [root.play:297] Now playing 'Our Father (LIVE) - Bethel Music & Jenn Johnson | For the Sake of the World'
+[2021-09-17 03:21:20,511] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 852033104683204648 (Guild ID 850251897990021130)
+[2021-09-17 03:21:20,512] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 03:21:20,517] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 341.
+[2021-09-17 03:21:20,527] INFO [discord.player.cleanup:166] ffmpeg process 341 has not terminated. Waiting to terminate...
+[2021-09-17 03:21:20,536] INFO [discord.player.cleanup:168] ffmpeg process 341 should have terminated with a return code of -9.
+[2021-09-17 03:21:20,548] ERROR [discord.player._call_after:618] Calling the after function failed.
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/player.py", line 616, in _call_after
+    self.after(error)
+  File "/home/runner/Musicbot2/cogs/music.py", line 188, in after_playing
+    self._play_song(client, state, next_song)
+  File "/home/runner/Musicbot2/cogs/music.py", line 197, in _play_song
+    client.play(source, after=after_playing)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 555, in play
+    raise ClientException('Not connected to voice.')
+discord.errors.ClientException: Not connected to voice.
+[2021-09-17 03:21:20,550] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 347.
+[2021-09-17 03:21:20,550] INFO [discord.player.cleanup:166] ffmpeg process 347 has not terminated. Waiting to terminate...
+[2021-09-17 03:21:20,552] INFO [discord.player.cleanup:168] ffmpeg process 347 should have terminated with a return code of -9.
+[2021-09-17 03:21:29,928] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 03:21:29,929] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 03:21:30,199] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore841.discord.media
+[2021-09-17 03:21:31,625] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 03:21:31,867] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 03:21:33,004] INFO [root.play:297] Now playing 'Don Moen - Our Father | Live Worship Sessions'
+[2021-09-17 03:22:45,060] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 03:22:45,062] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 03:22:45,373] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore6421.discord.media
+[2021-09-17 03:22:46,883] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 03:22:47,138] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 03:22:48,069] INFO [root.play:297] Now playing 'Minecraft OST - Pigstep (FlyxTheKid Remix)'
+[2021-09-17 03:23:02,278] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 03:23:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 03:24:25,401] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 349.
+[2021-09-17 03:24:25,402] INFO [discord.player.cleanup:166] ffmpeg process 349 has not terminated. Waiting to terminate...
+[2021-09-17 03:24:25,417] INFO [discord.player.cleanup:168] ffmpeg process 349 should have terminated with a return code of -9.
+[2021-09-17 03:25:13,974] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 363.
+[2021-09-17 03:25:13,974] INFO [discord.player.cleanup:166] ffmpeg process 363 has not terminated. Waiting to terminate...
+[2021-09-17 03:25:13,993] INFO [discord.player.cleanup:168] ffmpeg process 363 should have terminated with a return code of -9.
+[2021-09-17 03:25:24,487] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 356.
+[2021-09-17 03:25:24,488] INFO [discord.player.cleanup:170] ffmpeg process 356 successfully terminated with return code of 0.
+[2021-09-17 03:25:24,488] ERROR [discord.player._call_after:618] Calling the after function failed.
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/player.py", line 616, in _call_after
+    self.after(error)
+TypeError: repeat() takes 0 positional arguments but 1 was given
+[2021-09-17 03:26:30,030] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 888258985965269042 (Guild ID 667628322074787840)
+[2021-09-17 03:26:30,032] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 03:26:37,998] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 03:26:38,009] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 03:26:38,291] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore6421.discord.media
+[2021-09-17 03:26:39,702] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 03:26:39,938] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 03:26:40,895] INFO [root.play:297] Now playing 'The Dream Team- Original Song [Dream SMP]'
+[2021-09-17 03:26:50,885] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 888258985965269042 (Guild ID 667628322074787840)
+[2021-09-17 03:26:50,886] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 03:26:50,887] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 376.
+[2021-09-17 03:26:50,888] INFO [discord.player.cleanup:166] ffmpeg process 376 has not terminated. Waiting to terminate...
+[2021-09-17 03:26:50,924] INFO [discord.player.cleanup:168] ffmpeg process 376 should have terminated with a return code of -9.
+[2021-09-17 03:26:51,957] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 369.
+[2021-09-17 03:26:51,958] INFO [discord.player.cleanup:170] ffmpeg process 369 successfully terminated with return code of 0.
+[2021-09-17 03:27:01,740] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 03:27:01,791] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 03:27:02,058] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore6421.discord.media
+[2021-09-17 03:27:03,476] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 03:27:03,725] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 03:27:04,756] INFO [root.play:297] Now playing 'I See a Dreamer (Dream Team Original Song)'
+[2021-09-17 03:28:02,186] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 03:28:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 03:30:14,617] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 389.
+[2021-09-17 03:30:14,618] INFO [discord.player.cleanup:170] ffmpeg process 389 successfully terminated with return code of 0.
+[2021-09-17 03:30:14,620] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 888258985965269042 (Guild ID 667628322074787840)
+[2021-09-17 03:30:14,621] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 03:31:14,759] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 03:31:14,759] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 03:31:15,034] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore6421.discord.media
+[2021-09-17 03:31:16,459] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 03:31:16,698] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 03:31:17,871] INFO [root.play:297] Now playing 'never gonna give you up for 1 hour'
+[2021-09-17 03:33:02,262] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 03:33:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 03:38:02,215] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 03:38:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 03:43:02,377] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 03:43:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 03:43:03,625] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 03:43:03] "GET / HTTP/1.1" 200 -
+[2021-09-17 03:43:04,506] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 03:43:04] "GET / HTTP/1.1" 200 -
+[2021-09-17 03:48:02,266] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 03:48:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 03:53:02,246] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 03:53:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 03:55:21,259] WARNING [root.on_command_error:31] Ignoring exception in command play:
+[2021-09-17 03:55:21,260] WARNING [root.on_command_error:32] 
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/Musicbot2/cogs/music.py", line 274, in play
+    video = Video(url, ctx.author)
+  File "/home/runner/Musicbot2/video.py", line 18, in __init__
+    video = self._get_info(url_or_search)
+  File "/home/runner/Musicbot2/video.py", line 34, in _get_info
+    info["entries"][0]["url"])  # get info for first video
+IndexError: list index out of range
+
+[2021-09-17 03:55:31,954] WARNING [root.on_command_error:31] Ignoring exception in command play:
+[2021-09-17 03:55:31,955] WARNING [root.on_command_error:32] 
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/Musicbot2/cogs/music.py", line 274, in play
+    video = Video(url, ctx.author)
+  File "/home/runner/Musicbot2/video.py", line 18, in __init__
+    video = self._get_info(url_or_search)
+  File "/home/runner/Musicbot2/video.py", line 34, in _get_info
+    info["entries"][0]["url"])  # get info for first video
+IndexError: list index out of range
+
+[2021-09-17 03:55:59,908] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 406.
+[2021-09-17 03:55:59,960] INFO [discord.player.cleanup:166] ffmpeg process 406 has not terminated. Waiting to terminate...
+[2021-09-17 03:56:00,002] INFO [discord.player.cleanup:168] ffmpeg process 406 should have terminated with a return code of -9.
+[2021-09-17 03:57:01,581] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 852033104683204648 (Guild ID 850251897990021130)
+[2021-09-17 03:57:01,582] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 03:57:01,589] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 382.
+[2021-09-17 03:57:01,589] INFO [discord.player.cleanup:166] ffmpeg process 382 has not terminated. Waiting to terminate...
+[2021-09-17 03:57:01,600] INFO [discord.player.cleanup:168] ffmpeg process 382 should have terminated with a return code of -9.
+[2021-09-17 03:58:02,386] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 03:58:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 03:59:32,992] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 469.
+[2021-09-17 03:59:32,993] INFO [discord.player.cleanup:170] ffmpeg process 469 successfully terminated with return code of 0.
+[2021-09-17 04:03:03,270] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 04:03:03] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 04:04:33,081] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 486.
+[2021-09-17 04:04:33,082] INFO [discord.player.cleanup:170] ffmpeg process 486 successfully terminated with return code of 0.
+[2021-09-17 04:07:39,499] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 04:07:39,500] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 04:07:39,771] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore8082.discord.media
+[2021-09-17 04:07:41,242] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 04:07:41,485] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 04:07:42,424] INFO [root.play:297] Now playing 'I Don't Like Niggers - London Yellow (REACTION)'
+[2021-09-17 04:08:02,210] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 04:08:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 04:09:05,714] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 493.
+[2021-09-17 04:09:05,716] INFO [discord.player.cleanup:170] ffmpeg process 493 successfully terminated with return code of 0.
+[2021-09-17 04:09:16,230] WARNING [root.play:276] Error downloading video: [0;31mERROR:[0m Sign in to confirm your age
+This video may be inappropriate for some users.
+[2021-09-17 04:09:28,399] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 512.
+[2021-09-17 04:09:28,400] INFO [discord.player.cleanup:166] ffmpeg process 512 has not terminated. Waiting to terminate...
+[2021-09-17 04:09:28,418] INFO [discord.player.cleanup:168] ffmpeg process 512 should have terminated with a return code of -9.
+[2021-09-17 04:09:35,422] WARNING [root.play:276] Error downloading video: [0;31mERROR:[0m Sign in to confirm your age
+This video may be inappropriate for some users.
+[2021-09-17 04:09:56,300] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 886593267058245633 (Guild ID 886593266613637170)
+[2021-09-17 04:09:56,309] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 04:09:56,308] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 525.
+[2021-09-17 04:09:56,309] INFO [discord.player.cleanup:166] ffmpeg process 525 has not terminated. Waiting to terminate...
+[2021-09-17 04:09:56,324] INFO [discord.player.cleanup:168] ffmpeg process 525 should have terminated with a return code of -9.
+[2021-09-17 04:11:10,726] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 04:11:10,727] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 04:11:11,017] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore676.discord.media
+[2021-09-17 04:11:12,451] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 04:11:12,691] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 04:11:13,719] INFO [root.play:297] Now playing 'AMOGUS'
+[2021-09-17 04:11:20,109] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 532.
+[2021-09-17 04:11:20,109] INFO [discord.player.cleanup:170] ffmpeg process 532 successfully terminated with return code of 0.
+[2021-09-17 04:11:20,112] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 886593267058245633 (Guild ID 886593266613637170)
+[2021-09-17 04:11:20,113] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 04:11:28,834] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 04:11:28,893] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 04:11:29,172] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore676.discord.media
+[2021-09-17 04:11:30,615] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 04:11:30,865] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 04:11:31,809] INFO [root.play:297] Now playing 'Genjer  Genjer - Banyuwangi Folk Song - With Lyrics'
+[2021-09-17 04:12:09,637] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 539.
+[2021-09-17 04:12:09,638] INFO [discord.player.cleanup:166] ffmpeg process 539 has not terminated. Waiting to terminate...
+[2021-09-17 04:12:09,645] INFO [discord.player.cleanup:168] ffmpeg process 539 should have terminated with a return code of -9.
+[2021-09-17 04:13:02,261] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 04:13:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 04:13:22,517] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 545.
+[2021-09-17 04:13:22,517] INFO [discord.player.cleanup:166] ffmpeg process 545 has not terminated. Waiting to terminate...
+[2021-09-17 04:13:22,528] INFO [discord.player.cleanup:168] ffmpeg process 545 should have terminated with a return code of -9.
+[2021-09-17 04:13:31,950] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 519.
+[2021-09-17 04:13:31,951] INFO [discord.player.cleanup:170] ffmpeg process 519 successfully terminated with return code of 0.
+[2021-09-17 04:13:53,849] ERROR [discord.voice_client.poll_voice_ws:440] Disconnected from voice... Reconnecting in 1.75s.
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 414, in poll_voice_ws
+    await self.ws.poll_event()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 895, in poll_event
+    raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 4000
+[2021-09-17 04:13:55,602] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 886593267058245633 (Guild ID 886593266613637170)
+[2021-09-17 04:13:55,603] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 04:13:55,603] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 2)
+[2021-09-17 04:13:56,041] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found hongkong7656.discord.media
+[2021-09-17 04:13:57,349] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 04:13:57,569] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 04:14:36,212] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 552.
+[2021-09-17 04:14:36,213] INFO [discord.player.cleanup:166] ffmpeg process 552 has not terminated. Waiting to terminate...
+[2021-09-17 04:14:36,222] INFO [discord.player.cleanup:168] ffmpeg process 552 should have terminated with a return code of -9.
+[2021-09-17 04:15:17,902] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 886593267058245633 (Guild ID 886593266613637170)
+[2021-09-17 04:15:17,903] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 565.
+[2021-09-17 04:15:17,903] INFO [discord.player.cleanup:166] ffmpeg process 565 has not terminated. Waiting to terminate...
+[2021-09-17 04:15:17,921] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 04:15:17,926] INFO [discord.player.cleanup:168] ffmpeg process 565 should have terminated with a return code of -9.
+[2021-09-17 04:15:17,927] ERROR [discord.player._call_after:618] Calling the after function failed.
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/player.py", line 616, in _call_after
+    self.after(error)
+TypeError: repeat() takes 0 positional arguments but 1 was given
+[2021-09-17 04:15:28,304] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 04:15:28,304] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 04:15:28,550] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found hongkong7656.discord.media
+[2021-09-17 04:15:29,843] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 04:15:30,070] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 04:15:31,262] INFO [root.play:297] Now playing 'Oh Nigga You Gay! Sound effect'
+[2021-09-17 04:15:34,201] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 584.
+[2021-09-17 04:15:34,202] INFO [discord.player.cleanup:170] ffmpeg process 584 successfully terminated with return code of 0.
+[2021-09-17 04:15:49,131] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 590.
+[2021-09-17 04:15:49,132] INFO [discord.player.cleanup:166] ffmpeg process 590 has not terminated. Waiting to terminate...
+[2021-09-17 04:15:49,137] INFO [discord.player.cleanup:168] ffmpeg process 590 should have terminated with a return code of -9.
+[2021-09-17 04:15:53,265] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 596.
+[2021-09-17 04:15:53,267] INFO [discord.player.cleanup:170] ffmpeg process 596 successfully terminated with return code of 0.
+[2021-09-17 04:15:57,403] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 602.
+[2021-09-17 04:15:57,404] INFO [discord.player.cleanup:170] ffmpeg process 602 successfully terminated with return code of 0.
+[2021-09-17 04:15:57,405] ERROR [discord.player._call_after:618] Calling the after function failed.
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/player.py", line 616, in _call_after
+    self.after(error)
+TypeError: repeat() takes 0 positional arguments but 1 was given
+[2021-09-17 04:16:25,608] WARNING [discord.http.request:222] We are being rate limited. Retrying in 0.11 seconds. Handled under the bucket "888275757674147930:None:/channels/{channel_id}/messages/{message_id}/reactions/{emoji}/@me"
+[2021-09-17 04:16:25,840] WARNING [discord.http.request:222] We are being rate limited. Retrying in 0.19 seconds. Handled under the bucket "888275757674147930:None:/channels/{channel_id}/messages/{message_id}/reactions/{emoji}/{member_id}"
+[2021-09-17 04:16:26,161] WARNING [discord.http.request:222] We are being rate limited. Retrying in 0.18 seconds. Handled under the bucket "888275757674147930:None:/channels/{channel_id}/messages/{message_id}/reactions/{emoji}/@me"
+[2021-09-17 04:16:34,460] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 886593267058245633 (Guild ID 886593266613637170)
+[2021-09-17 04:16:34,461] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 04:16:40,301] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 04:16:40,301] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 04:16:40,539] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found hongkong7656.discord.media
+[2021-09-17 04:16:41,831] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 04:16:42,052] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 04:16:43,510] INFO [root.play:297] Now playing 'Oh Nigga You Gay! Sound effect'
+[2021-09-17 04:16:46,297] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 609.
+[2021-09-17 04:16:46,298] INFO [discord.player.cleanup:170] ffmpeg process 609 successfully terminated with return code of 0.
+[2021-09-17 04:16:46,301] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 886593267058245633 (Guild ID 886593266613637170)
+[2021-09-17 04:16:46,304] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 04:16:59,622] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 04:16:59,622] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 04:17:00,897] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found hongkong7656.discord.media
+[2021-09-17 04:17:02,200] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 04:17:02,422] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 04:17:04,712] INFO [root.play:297] Now playing 'Oh Nigga You Gay! Sound effect'
+[2021-09-17 04:17:06,554] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 616.
+[2021-09-17 04:17:06,555] INFO [discord.player.cleanup:170] ffmpeg process 616 successfully terminated with return code of 0.
+[2021-09-17 04:17:06,556] ERROR [discord.player._call_after:618] Calling the after function failed.
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/player.py", line 616, in _call_after
+    self.after(error)
+TypeError: repeat() takes 0 positional arguments but 1 was given
+[2021-09-17 04:17:26,085] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 886593267058245633 (Guild ID 886593266613637170)
+[2021-09-17 04:17:26,086] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 04:17:34,807] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 04:17:34,807] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 04:17:35,052] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found hongkong7656.discord.media
+[2021-09-17 04:17:36,337] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 04:17:36,557] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 04:17:37,475] INFO [root.play:297] Now playing 'Oh Nigga You Gay! Sound effect'
+[2021-09-17 04:17:40,686] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 623.
+[2021-09-17 04:17:40,687] INFO [discord.player.cleanup:170] ffmpeg process 623 successfully terminated with return code of 0.
+[2021-09-17 04:17:40,694] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 886593267058245633 (Guild ID 886593266613637170)
+[2021-09-17 04:17:40,698] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 04:17:47,432] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 04:17:47,433] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 04:17:47,677] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found hongkong7656.discord.media
+[2021-09-17 04:17:48,956] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 04:17:49,176] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 04:17:50,324] INFO [root.play:297] Now playing 'LESS GOO 10 hour version'
+[2021-09-17 04:18:02,274] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 04:18:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 04:18:05,110] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 630.
+[2021-09-17 04:18:05,110] INFO [discord.player.cleanup:166] ffmpeg process 630 has not terminated. Waiting to terminate...
+[2021-09-17 04:18:05,126] INFO [discord.player.cleanup:168] ffmpeg process 630 should have terminated with a return code of -9.
+[2021-09-17 04:18:05,126] ERROR [discord.player._call_after:618] Calling the after function failed.
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/player.py", line 616, in _call_after
+    self.after(error)
+TypeError: repeat() takes 0 positional arguments but 1 was given
+[2021-09-17 04:18:06,011] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 558.
+[2021-09-17 04:18:06,012] INFO [discord.player.cleanup:170] ffmpeg process 558 successfully terminated with return code of 0.
+[2021-09-17 04:18:42,876] WARNING [root.play:276] Error downloading video: [0;31mERROR:[0m Sign in to confirm your age
+This video may be inappropriate for some users.
+[2021-09-17 04:20:13,116] WARNING [root.play:276] Error downloading video: [0;31mERROR:[0m Sign in to confirm your age
+This video may be inappropriate for some users.
+[2021-09-17 04:20:51,596] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 886593267058245633 (Guild ID 886593266613637170)
+[2021-09-17 04:20:51,597] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 04:23:02,207] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 04:23:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 04:23:19,811] WARNING [root.on_command_error:31] Ignoring exception in command play:
+[2021-09-17 04:23:19,812] WARNING [root.on_command_error:32] 
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/Musicbot2/cogs/music.py", line 274, in play
+    video = Video(url, ctx.author)
+  File "/home/runner/Musicbot2/video.py", line 18, in __init__
+    video = self._get_info(url_or_search)
+  File "/home/runner/Musicbot2/video.py", line 34, in _get_info
+    info["entries"][0]["url"])  # get info for first video
+IndexError: list index out of range
+
+[2021-09-17 04:23:37,195] WARNING [root.on_command_error:31] Ignoring exception in command play:
+[2021-09-17 04:23:37,196] WARNING [root.on_command_error:32] 
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/Musicbot2/cogs/music.py", line 274, in play
+    video = Video(url, ctx.author)
+  File "/home/runner/Musicbot2/video.py", line 18, in __init__
+    video = self._get_info(url_or_search)
+  File "/home/runner/Musicbot2/video.py", line 34, in _get_info
+    info["entries"][0]["url"])  # get info for first video
+IndexError: list index out of range
+
+[2021-09-17 04:28:02,392] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 04:28:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 04:28:13,273] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 637.
+[2021-09-17 04:28:13,274] INFO [discord.player.cleanup:166] ffmpeg process 637 has not terminated. Waiting to terminate...
+[2021-09-17 04:28:13,278] INFO [discord.player.cleanup:168] ffmpeg process 637 should have terminated with a return code of -9.
+[2021-09-17 04:28:13,279] ERROR [discord.player._call_after:618] Calling the after function failed.
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/player.py", line 616, in _call_after
+    self.after(error)
+TypeError: repeat() takes 0 positional arguments but 1 was given
+[2021-09-17 04:29:26,631] INFO [discord.client.login:510] logging in using static token
+[2021-09-17 04:29:26,693] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-17 04:29:26,698] INFO [werkzeug._log:225]  * Running on http://172.18.0.124:8080/ (Press CTRL+C to quit)
+[2021-09-17 04:29:26,951] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-17 04:29:27,147] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-tkgc",{"micros":153628,"calls":["discord-sessions-blue-prd-2-103",{"micros":149726,"calls":["start_session",{"micros":40542,"calls":["api-prd-main-d37k",{"micros":37166,"calls":["get_user",{"micros":4979},"add_authorized_ip",{"micros":2963},"get_guilds",{"micros":6904},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 483988ac6a7d1c07b12f55a743a3ba0c).
+[2021-09-17 04:29:27,263] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 04:29:27] "GET / HTTP/1.1" 200 -
+[2021-09-17 04:29:29,204] INFO [root.on_ready:18] Logged in as Raiden Shogun
+[2021-09-17 04:29:54,637] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 04:29:54,637] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 04:29:55,561] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore6421.discord.media
+[2021-09-17 04:29:57,008] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 04:29:57,249] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 04:29:58,260] INFO [root.play:297] Now playing 'もう少しだけ'
+[2021-09-17 04:33:02,181] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 04:33:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 04:33:37,499] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 727.
+[2021-09-17 04:33:37,500] INFO [discord.player.cleanup:170] ffmpeg process 727 successfully terminated with return code of 0.
+[2021-09-17 04:37:23,752] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 735.
+[2021-09-17 04:37:23,753] INFO [discord.player.cleanup:170] ffmpeg process 735 successfully terminated with return code of 0.
+[2021-09-17 04:38:02,302] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 04:38:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 04:38:09,953] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 04:38:09,958] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 04:38:10,237] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore1625.discord.media
+[2021-09-17 04:38:11,679] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 04:38:11,915] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 04:38:13,168] INFO [root.play:297] Now playing 'Rick Astley - Never Gonna Give You Up (Official Music Video)'
+[2021-09-17 04:38:28,289] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 869786731610796042 (Guild ID 850251897990021130)
+[2021-09-17 04:38:28,290] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 04:38:28,293] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 749.
+[2021-09-17 04:38:28,300] INFO [discord.player.cleanup:166] ffmpeg process 749 has not terminated. Waiting to terminate...
+[2021-09-17 04:38:28,316] INFO [discord.player.cleanup:168] ffmpeg process 749 should have terminated with a return code of -9.
+[2021-09-17 04:38:36,748] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 04:38:36,748] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 04:38:37,018] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore1625.discord.media
+[2021-09-17 04:38:38,432] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 04:38:38,671] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 04:38:39,832] INFO [root.play:297] Now playing 'Lagu Jorok (Baon Cikadap) Cover With Lirik'
+[2021-09-17 04:41:09,024] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 741.
+[2021-09-17 04:41:09,025] INFO [discord.player.cleanup:170] ffmpeg process 741 successfully terminated with return code of 0.
+[2021-09-17 04:42:31,665] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 756.
+[2021-09-17 04:42:31,666] INFO [discord.player.cleanup:170] ffmpeg process 756 successfully terminated with return code of 0.
+[2021-09-17 04:42:31,668] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 869786731610796042 (Guild ID 850251897990021130)
+[2021-09-17 04:42:31,669] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 04:42:32,853] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 762.
+[2021-09-17 04:42:32,854] INFO [discord.player.cleanup:170] ffmpeg process 762 successfully terminated with return code of 0.
+[2021-09-17 04:43:02,282] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 04:43:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 04:48:02,200] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 04:48:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 04:50:44,606] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 768.
+[2021-09-17 04:50:44,607] INFO [discord.player.cleanup:170] ffmpeg process 768 successfully terminated with return code of 0.
+[2021-09-17 04:53:02,226] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 04:53:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 04:54:15,179] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 776.
+[2021-09-17 04:54:15,180] INFO [discord.player.cleanup:170] ffmpeg process 776 successfully terminated with return code of 0.
+[2021-09-17 04:57:28,310] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 783.
+[2021-09-17 04:57:28,310] INFO [discord.player.cleanup:170] ffmpeg process 783 successfully terminated with return code of 0.
+[2021-09-17 04:58:02,192] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 04:58:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 05:01:27,669] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 789.
+[2021-09-17 05:01:27,669] INFO [discord.player.cleanup:170] ffmpeg process 789 successfully terminated with return code of 0.
+[2021-09-17 05:03:02,265] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 05:03:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 05:03:07,563] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 796.
+[2021-09-17 05:03:07,564] INFO [discord.player.cleanup:170] ffmpeg process 796 successfully terminated with return code of 0.
+[2021-09-17 05:07:33,797] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 803.
+[2021-09-17 05:07:33,798] INFO [discord.player.cleanup:170] ffmpeg process 803 successfully terminated with return code of 0.
+[2021-09-17 05:08:02,281] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 05:08:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 05:11:06,750] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 809.
+[2021-09-17 05:11:06,752] INFO [discord.player.cleanup:170] ffmpeg process 809 successfully terminated with return code of 0.
+[2021-09-17 05:13:02,306] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 05:13:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 05:15:30,842] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 816.
+[2021-09-17 05:15:30,843] INFO [discord.player.cleanup:170] ffmpeg process 816 successfully terminated with return code of 0.
+[2021-09-17 05:18:02,225] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 05:18:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 05:18:27,471] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 823.
+[2021-09-17 05:18:27,472] INFO [discord.player.cleanup:170] ffmpeg process 823 successfully terminated with return code of 0.
+[2021-09-17 05:18:27,474] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 888258985965269042 (Guild ID 667628322074787840)
+[2021-09-17 05:18:27,475] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 05:23:02,199] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 05:23:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 05:28:02,259] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 05:28:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 05:33:02,354] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 05:33:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 05:38:02,214] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 05:38:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 05:43:02,263] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 05:43:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 05:48:02,247] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 05:48:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 05:53:02,218] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 05:53:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 05:58:02,140] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 05:58:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 06:03:03,337] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 06:03:03] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 06:08:02,208] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 06:08:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 06:13:02,170] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 06:13:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 06:17:43,252] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-17 06:17:43,253] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-17 06:17:43,534] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found singapore8582.discord.media
+[2021-09-17 06:17:44,973] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-17 06:17:45,215] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-17 06:17:46,311] INFO [root.play:297] Now playing 'Initial D - Deja Vu'
+[2021-09-17 06:18:02,240] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 06:18:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 06:22:09,310] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 842.
+[2021-09-17 06:22:09,311] INFO [discord.player.cleanup:170] ffmpeg process 842 successfully terminated with return code of 0.
+[2021-09-17 06:23:02,082] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 06:23:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 06:27:08,243] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 849.
+[2021-09-17 06:27:08,243] INFO [discord.player.cleanup:166] ffmpeg process 849 has not terminated. Waiting to terminate...
+[2021-09-17 06:27:08,286] INFO [discord.player.cleanup:168] ffmpeg process 849 should have terminated with a return code of -9.
+[2021-09-17 06:28:03,327] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 06:28:03] "HEAD / HTTP/1.1" 200 -
+[2021-09-17 06:28:47,418] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 06:28:47] "GET / HTTP/1.1" 200 -
+[2021-09-17 06:30:24,533] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 856.
+[2021-09-17 06:30:24,534] INFO [discord.player.cleanup:170] ffmpeg process 856 successfully terminated with return code of 0.
+[2021-09-17 06:30:39,442] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 888258985965269042 (Guild ID 667628322074787840)
+[2021-09-17 06:30:39,443] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-17 06:30:39,449] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 873.
+[2021-09-17 06:30:39,449] INFO [discord.player.cleanup:166] ffmpeg process 873 has not terminated. Waiting to terminate...
+[2021-09-17 06:30:39,462] INFO [discord.player.cleanup:168] ffmpeg process 873 should have terminated with a return code of -9.
+[2021-09-17 06:33:02,220] INFO [werkzeug._log:225] 172.18.0.1 - - [17/Sep/2021 06:33:02] "HEAD / HTTP/1.1" 200 -
+[2021-09-27 06:08:36,888] INFO [discord.client.login:510] logging in using static token
+[2021-09-27 06:08:36,892] WARNING [werkzeug._log:225]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2021-09-27 06:08:36,892] INFO [werkzeug._log:225]  * Running on http://172.18.0.24:8080/ (Press CTRL+C to quit)
+[2021-09-27 06:08:37,216] INFO [discord.gateway.identify:403] Shard ID None has sent the IDENTIFY payload.
+[2021-09-27 06:08:37,477] INFO [discord.gateway.received_message:494] Shard ID None has connected to Gateway: ["gateway-prd-main-0k83",{"micros":174765,"calls":["discord-sessions-green-prd-2-140",{"micros":173734,"calls":["start_session",{"micros":33928,"calls":["api-prd-main-80bn",{"micros":30236,"calls":["get_user",{"micros":3405},"add_authorized_ip",{"micros":1397},"get_guilds",{"micros":6712},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":4,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: e6548b30d46a7a4eee24c02a710ed742).
+[2021-09-27 06:08:38,885] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 06:08:38] "GET / HTTP/1.1" 200 -
+[2021-09-27 06:08:40,398] INFO [discord.voice_client.connect:329] Connecting to voice...
+[2021-09-27 06:08:40,398] INFO [discord.voice_client.prepare_handshake:311] Starting voice handshake... (connection attempt 1)
+[2021-09-27 06:08:40,400] INFO [root.on_ready:18] Logged in as Raiden Shogun
+[2021-09-27 06:08:41,271] INFO [discord.voice_client.finish_handshake:315] Voice handshake complete. Endpoint found hongkong8626.discord.media
+[2021-09-27 06:08:42,376] INFO [discord.gateway.initial_connection:862] selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2021-09-27 06:08:42,565] INFO [discord.gateway.load_secret_key:880] received secret key for voice connection
+[2021-09-27 06:08:43,905] INFO [root.play:297] Now playing '【MAD】Koe no Katachi - Koi wo Shita no wa (恋をしたのは)'
+[2021-09-27 06:08:44,346] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 06:08:44] "HEAD / HTTP/1.1" 200 -
+[2021-09-27 06:13:44,441] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 06:13:44] "HEAD / HTTP/1.1" 200 -
+[2021-09-27 06:14:51,777] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 124.
+[2021-09-27 06:14:51,778] INFO [discord.player.cleanup:170] ffmpeg process 124 successfully terminated with return code of 0.
+[2021-09-27 06:18:44,324] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 06:18:44] "HEAD / HTTP/1.1" 200 -
+[2021-09-27 06:19:51,878] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 133.
+[2021-09-27 06:19:51,879] INFO [discord.player.cleanup:170] ffmpeg process 133 successfully terminated with return code of 0.
+[2021-09-27 06:19:52,185] INFO [discord.player.cleanup:158] Preparing to terminate ffmpeg process 140.
+[2021-09-27 06:19:52,186] INFO [discord.player.cleanup:170] ffmpeg process 140 successfully terminated with return code of 1.
+[2021-09-27 06:19:52,188] INFO [discord.voice_client.voice_disconnect:304] The voice handshake is being terminated for Channel ID 876962733810130995 (Guild ID 833651370832953395)
+[2021-09-27 06:19:52,199] INFO [discord.voice_client.poll_voice_ws:422] Disconnecting from voice normally, close code 1000.
+[2021-09-27 06:23:44,718] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 06:23:44] "HEAD / HTTP/1.1" 200 -
+[2021-09-27 06:28:44,435] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 06:28:44] "HEAD / HTTP/1.1" 200 -
+[2021-09-27 06:33:44,475] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 06:33:44] "HEAD / HTTP/1.1" 200 -
+[2021-09-27 06:38:44,486] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 06:38:44] "HEAD / HTTP/1.1" 200 -
+[2021-09-27 06:43:44,249] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 06:43:44] "HEAD / HTTP/1.1" 200 -
+[2021-09-27 06:48:44,343] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 06:48:44] "HEAD / HTTP/1.1" 200 -
+[2021-09-27 06:53:44,345] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 06:53:44] "HEAD / HTTP/1.1" 200 -
+[2021-09-27 06:58:44,430] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 06:58:44] "HEAD / HTTP/1.1" 200 -
+[2021-09-27 07:02:32,311] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 07:02:32] "GET / HTTP/1.1" 200 -
+[2021-09-27 07:03:22,808] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 07:03:22] "GET / HTTP/1.1" 200 -
+[2021-09-27 07:03:44,460] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 07:03:44] "HEAD / HTTP/1.1" 200 -
+[2021-09-27 07:04:33,789] INFO [werkzeug._log:225] 172.18.0.1 - - [27/Sep/2021 07:04:33] "GET / HTTP/1.1" 200 -
