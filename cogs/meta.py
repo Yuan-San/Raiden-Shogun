@@ -18,3 +18,4 @@ class Meta(commands.Cog):
         uptime_seconds = round(
             (datetime.now() - self.start_time).total_seconds())
         await ctx.send(f"Current Uptime: {util.format_seconds(uptime_seconds)}")
+      

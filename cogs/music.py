@@ -68,7 +68,7 @@ class Music(commands.Cog):
             self.states[guild.id] = GuildState()
             return self.states[guild.id]
 
-    @commands.command(aliases=["stop"])
+    @commands.command(aliases=["stop", "dc", "disconnect"])
     @commands.guild_only()
     async def leave(self, ctx):
         """Leaves the voice channel, if currently in one."""
@@ -87,7 +87,7 @@ class Music(commands.Cog):
     async def help(self, ctx):
       #Help Command
       embed=discord.Embed(title="**Raiden Shogun Commands**", description="This is the full guide of Raiden Shogun bot commands.", color=0x965083)
-      embed.set_thumbnail(url="https://cdn.discordapp.com/avatars/887551771805876237/8f0dcf34380752531bf518d8b637e565.webp?size=256")
+      embed.set_thumbnail(url="https://cdn.discordapp.com/avatars/887551771805876237/8d77d1004e00c44a3cb08d7a9b57faad.webp?size=100")
       embed.add_field(name="Basic Commands", value="`play [URL or Song Name]` - Play a song with YouTube URL or Song name from YouTube.\n`pause` - Pauses the currect song.\n`Skip` - Skip the current song.\n`leave` - Leave a voice channel.", inline=False)
       embed.add_field(name="Queue Command", value="`queue` - See Songs at the bot Queue.\n`clearqueue` - Clear your queue without leaving the voice channel", inline=False)
       embed.add_field(name="More", value="`volume` - Set your music volume.", inline=False)
@@ -111,7 +111,7 @@ class Music(commands.Cog):
         else:
             client.pause()
 
-    @commands.command(aliases=["vol", "v"])
+    @commands.command(aliases=["vol"])
     @commands.guild_only()
     @commands.check(audio_playing)
     @commands.check(in_voice_channel)
